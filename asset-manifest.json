@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/gedeon-oscar-portfolio/static/css/main.3eaf7f57.css",
+    "main.js": "/gedeon-oscar-portfolio/static/js/main.aa26750a.js",
+    "static/js/453.e04e4546.chunk.js": "/gedeon-oscar-portfolio/static/js/453.e04e4546.chunk.js",
+    "static/media/HubscoreX.png": "/gedeon-oscar-portfolio/static/media/HubscoreX.d1ad246dd9a7ff7a976d.png",
+    "static/media/I - LANK Figma.png": "/gedeon-oscar-portfolio/static/media/I - LANK Figma.a47130e1818848cab0cc.png",
+    "static/media/Zonezapp.png": "/gedeon-oscar-portfolio/static/media/Zonezapp.f19d9152e811ac9ffef6.png",
+    "static/media/Creator-Blob.png": "/gedeon-oscar-portfolio/static/media/Creator-Blob.4b50716b45bfd06a03ee.png",
+    "static/media/Popup-1.jpeg": "/gedeon-oscar-portfolio/static/media/Popup-1.9c2eb408365579255164.jpeg",
+    "static/media/Code-sniplet.png": "/gedeon-oscar-portfolio/static/media/Code-sniplet.76821e54c804dc7ce3e3.png",
+    "static/media/fa-solid-900.woff2": "/gedeon-oscar-portfolio/static/media/fa-solid-900.8ae0d37556ff1e685de2.woff2",
+    "static/media/fa-brands-400.woff2": "/gedeon-oscar-portfolio/static/media/fa-brands-400.1c5c7716b05754cb4eab.woff2",
+    "static/media/Momentum - Project.png": "/gedeon-oscar-portfolio/static/media/Momentum - Project.8e394156bffdf9543f9f.png",
+    "static/media/hero-bottom-imgae.png": "/gedeon-oscar-portfolio/static/media/hero-bottom-imgae.d63ff2ffdb5d201b62e0.png",
+    "static/media/Imagistix Technologies.png": "/gedeon-oscar-portfolio/static/media/Imagistix Technologies.ca0c1ca283ad0a580b08.png",
+    "static/media/fa-regular-400.woff2": "/gedeon-oscar-portfolio/static/media/fa-regular-400.6f05ca9ab7b5345dbc07.woff2",
+    "static/media/ZoneZapp Tech Ltd.png": "/gedeon-oscar-portfolio/static/media/ZoneZapp Tech Ltd.2e575d5b4f3326b3d2df.png",
+    "static/media/fa-v4compatibility.woff2": "/gedeon-oscar-portfolio/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
+    "index.html": "/gedeon-oscar-portfolio/index.html",
+    "main.3eaf7f57.css.map": "/gedeon-oscar-portfolio/static/css/main.3eaf7f57.css.map",
+    "main.aa26750a.js.map": "/gedeon-oscar-portfolio/static/js/main.aa26750a.js.map",
+    "453.e04e4546.chunk.js.map": "/gedeon-oscar-portfolio/static/js/453.e04e4546.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eaf7f57.css",
+    "static/js/main.aa26750a.js"
+  ]
+}
