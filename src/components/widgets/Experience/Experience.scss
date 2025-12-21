@@ -1,0 +1,104 @@
+.experience-section {
+
+  h5 {
+    font-weight: 500;
+    color: #6c757d;
+  }
+
+  .experience-card {
+    opacity: 0.8;
+    background-color: rgb(255, 255, 255, 0.1);
+
+    border: 0.5px solid #e5e7eb;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    cursor: default;
+    height: 335px;
+    min-height: 260px;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      border-color: #d1d5db;
+    }
+
+    .experience-content {
+      ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+          position: relative;
+          padding-left: 1.5rem;
+          font-size: 0.95rem;
+          color: #4b5563;
+
+          &::before {
+            content: '•';
+            color: var(--alert-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+          }
+        }
+      }
+
+      h3 {
+        font-size: 1.25rem;
+        color: #111827;
+      }
+    }
+
+    .experience-logo {
+      img {
+        width: 125px;
+        height: 125px;
+        object-fit: fill;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+  .role-fullstack {
+    color: var(--info-color);
+  }
+
+  .role-webdev {
+    color: var(--success-color);
+  }
+
+  .role-uiux {
+    color: var(--warning-color);
+  }
+
+  .role-frontend {
+    color: var(--error-color);
+  }
+
+  // Responsive adjustments
+  @media (max-width: 768px) {
+    .experience-card {
+      flex-direction: column;
+      text-align: center;
+
+      .experience-content ul li {
+        padding-left: 1rem;
+      }
+
+      .experience-logo {
+        margin-top: 1rem;
+
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+  }
+}

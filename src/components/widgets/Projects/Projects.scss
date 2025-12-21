@@ -1,0 +1,124 @@
+.projects-section {
+    .container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    // Entire card container
+    .card {
+        border-radius: 1.5rem;
+        transition: all 0.3s ease;
+        overflow: hidden;
+
+        background-color: rgb(255, 255, 255, 0.1);
+
+        &:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        }
+
+        .row {
+            align-items: center;
+        }
+
+        // Image styling
+        .project-image {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.4s ease;
+            border-radius: 1rem;
+
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+
+        // Text section
+        h5 {
+            color: #111827;
+            font-size: 1.25rem;
+            font-family: var(--font-family);
+        }
+
+        p {
+            color: #4b5563;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        // Badge styling
+        .badge {
+            background-color: #f3f4f6 !important;
+            font-size: 0.8rem;
+            font-weight: 500;
+            padding: 0.4rem 0.75rem;
+            border-radius: 8px;
+            color: #111827 !important;
+            border: 1px solid #e5e7eb !important;
+            transition: all 0.2s ease;
+
+            &:hover {
+                background-color: #e5e7eb !important;
+                color: #1f2937 !important;
+            }
+        }
+
+        // Link icon
+        a {
+            font-size: 1rem;
+            color: #2563eb;
+            transition: color 0.3s ease;
+
+            &:hover {
+                color: #1e40af;
+            }
+
+            i {
+                font-size: 1rem;
+                margin-left: 0.25rem;
+            }
+        }
+    }
+
+    // Responsive adjustments
+    @media (max-width: 992px) {
+        .card {
+            .row {
+                flex-direction: column !important;
+                text-align: center;
+            }
+
+            .project-image {
+                border-radius: 1rem 1rem 0 0;
+                max-height: 250px;
+            }
+
+            p {
+                font-size: 0.95rem;
+            }
+
+            .badge {
+                margin-bottom: 0.4rem;
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        .card {
+            padding: 0.5rem;
+
+            h5 {
+                font-size: 1.1rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+
+            .badge {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}

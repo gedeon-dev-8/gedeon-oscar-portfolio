@@ -1,0 +1,16 @@
+.copyright {
+    width: 100%;
+    float: left;
+    //background: linear-gradient(90deg, #0c0e14, #022a44, #0c0e14);
+    //background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2), var(--color-bg0));
+    background-color: var(--font-text-color);
+
+    .copyright_text {
+        width: 100%;
+        float: left;
+        font-size: 14pt;
+        color: #fff;
+        text-align: center;
+        font-weight: 100;
+    }
+}
