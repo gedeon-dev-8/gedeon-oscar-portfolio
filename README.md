@@ -10,6 +10,12 @@
   🎨 Gedeon Oscar - Portfolio
 </h1>
 
+![GitHub last commit](https://img.shields.io/github/last-commit/gedeon-dev-8/gedeon-oscar-portfolio)
+![GitHub repo size](https://img.shields.io/github/repo-size/gedeon-dev-8/gedeon-oscar-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/gedeon-dev-8/gedeon-oscar-portfolio?style=social)
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Latest-FF0055?logo=framer)
+
 A modern, interactive portfolio website showcasing my work as a Creative Frontend Engineer and UI/UX Designer. Built with React and enhanced with smooth Framer Motion animations.
 
 <img width="1920" height="1080" alt="Portfolio Preview Image" src="https://github.com/user-attachments/assets/009399f0-eea7-4ec0-ab21-20b1946beaa6" />
