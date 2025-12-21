@@ -22,15 +22,14 @@
 
   // --color-bg1: rgb(118, 0, 162);
   // --color-bg2: rgb(8, 17, 82);
-  // --color1: 18, 113, 255;
-  // --color2: 221, 74, 255;
-  // --color3: 100, 220, 255;
-  // --color4: 200, 50, 50;
-  // --color5: 180, 180, 50;
-  // --color-interactive: 140, 100, 255;
+  // --color1: 18, 113, 255; //rgb(18, 113, 255)
+  // --color2: 221, 74, 255; //rgb(221, 74, 255)
+  // --color3: 100, 220, 255; //rgb(100, 220, 255)
+  // --color4: 200, 50, 50; //rgb(200, 50, 50)
+  // --color5: 180, 180, 50; //rgb(180, 180, 50)
+  // --color-interactive: 140, 100, 255; //rgb(140, 100, 255)
   // --circle-size: 80%;
   // --blending-mode: hard-light;
-
   //--circle-size: 40vmax;
   --circle-size: min(50vmax, 600px);
   --color-bg0: #fdfdff;
@@ -137,148 +136,6 @@ body {
   }
 
 }
-
-// .gradient-bg {
-//   //min-height: 100vh;
-//   //position: relative;
-//   //overflow-x: hidden; // Only hide horizontal overflow if needed
-//   //overflow-y: auto; // Allow vertical scrolling
-
-//   //width: 100vw;
-//   //height: 100vh;
-//   //overflow: hidden;
-//   //position: absolute;
-//   background: linear-gradient(40deg, var(--color-bg1), var(--color-bg2), var(--color-bg0));
-//   //top: 0;
-//   //left: 0;
-//   inset: 0;
-
-//   svg {
-//     position: absolute;
-//     width: 0;
-//     height: 0;
-//     overflow: hidden;
-//     pointer-events: none;
-//   }
-
-
-//   .gradient-container {
-//     filter: url(#goo) blur(48px);
-
-//     @media (max-width: 768px) {
-//       filter: blur(16px);
-//     }
-
-//     /* lighter blur for performance; fallback only blur if filter unsupported */
-//     filter: url(#goo);
-//     /* additional CSS blur for browsers that don't support filter(url) */
-//     -webkit-filter: blur(18px);
-//     width: 100%;
-//     height: 100%;
-//     position: relative;
-//   }
-
-//   .g1,
-//   .g2,
-//   .g3,
-//   .g4,
-//   .g5 {
-//     position: absolute;
-//     mix-blend-mode: var(--blending-mode);
-//     width: var(--circle-size);
-//     height: var(--circle-size);
-//     border-radius: 50%;
-//     opacity: 0.95;
-//     will-change: transform, top, left;
-//   }
-
-//   .g1 {
-//     background: radial-gradient(circle at center, rgba(var(--color1), 0.85) 0, rgba(var(--color1), 0) 50%) no-repeat;
-//     top: calc(50% - var(--circle-size) / 2);
-//     left: calc(50% - var(--circle-size) / 2);
-//     animation: moveVertical 28s ease-in-out infinite alternate;
-//   }
-
-//   .g2 {
-//     background: radial-gradient(circle at center, rgba(var(--color2), 0.85) 0, rgba(var(--color2), 0) 50%) no-repeat;
-//     top: calc(50% - var(--circle-size) / 2);
-//     left: calc(50% - var(--circle-size) / 2);
-//     transform-origin: center;
-//     animation: moveInCircle 22s linear infinite reverse;
-//   }
-
-//   .g3 {
-//     background: radial-gradient(circle at center, rgba(var(--color3), 0.85) 0, rgba(var(--color3), 0) 50%) no-repeat;
-//     top: calc(50% - var(--circle-size) / 2 + 12vmin);
-//     left: calc(50% - var(--circle-size) / 2 - 18vmin);
-//     transform-origin: center;
-//     animation: moveInCircle 36s ease infinite;
-//   }
-
-//   .g4 {
-//     background: radial-gradient(circle at center, rgba(var(--color4), 0.85) 0, rgba(var(--color4), 0) 50%) no-repeat;
-//     top: calc(50% - var(--circle-size) / 2);
-//     left: calc(50% - var(--circle-size) / 2);
-//     transform-origin: center;
-//     animation: moveHorizontal 40s ease-in-out infinite alternate;
-//   }
-
-//   .g5 {
-//     background: radial-gradient(circle at center, rgba(var(--color5), 0.75) 0, rgba(var(--color5), 0) 50%) no-repeat;
-//     width: calc(var(--circle-size) * 1.6);
-//     height: calc(var(--circle-size) * 1.6);
-//     top: calc(50% - var(--circle-size) * 0.8);
-//     left: calc(50% - var(--circle-size) * 0.8);
-//     transform-origin: center;
-//     animation: moveInCircle 26s ease infinite;
-//   }
-
-//   .interactive {
-//     position: absolute;
-//     width: 120%;
-//     /* slightly larger to allow smooth movement */
-//     height: 120%;
-//     top: -10%;
-//     left: -10%;
-//     border-radius: 50%;
-//     mix-blend-mode: var(--blending-mode);
-//     background: radial-gradient(circle at center, rgba(var(--color-interactive), 0.6) 0, rgba(var(--color-interactive), 0) 60%) no-repeat;
-//     opacity: 0.45;
-//     pointer-events: none;
-//     /* IMPORTANT: let pointer events pass through */
-//     will-change: transform;
-//     transform: translate3d(0, 0, 0);
-//     transition: transform 160ms cubic-bezier(.2, .9, .3, 1);
-//   }
-
-// }
-
-// .section-wrappers {
-//   z-index: 1000;
-//   background-color: transparent;
-
-//   color: var(--font-text-colcor) !important;
-//   font-family: var(--font-family) !important;
-
-//   //overflow-x: hidden;
-//   //overflow-y: auto;
-
-//   //width: 100vw;
-//   //height: 100vh;
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-
-//   &::-webkit-scrollbar {
-//     @include webkit-scrollbar();
-//   }
-
-//   &::-webkit-scrollbar-thumb {
-//     @include webkit-scrollbar-thumb();
-//   }
-// }
-
-// Add these critical styles to your index.scss
 
 .gradient-bg {
   position: fixed; // Make background fixed so it doesn't scroll
@@ -389,15 +246,6 @@ body {
   color: var(--font-text-color) !important;
   font-family: var(--font-family) !important;
   min-height: 100vh; // Ensure it takes at least full viewport height
-
-  // Remove these problematic properties:
-  // width: 100vw;
-  // height: 100vh;
-  // position: absolute;
-  // top: 0;
-  // left: 0;
-  // overflow: hidden;
-
   &::-webkit-scrollbar {
     width: .50rem;
     border-radius: .5rem;
