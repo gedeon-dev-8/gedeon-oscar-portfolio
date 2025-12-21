@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+<h1 align="left">
+  <img
+    src="https://github.com/user-attachments/assets/00e4b5bc-cc92-4e38-afe1-8a16f6fcc206"
+    width="100"
+    height="100"
+    alt="Gedeon Oscar Logo"
+    align="middle"
+  />
+  &nbsp;
+  🎨 Gedeon Oscar - Portfolio
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive portfolio website showcasing my work as a Creative Frontend Engineer and UI/UX Designer. Built with React and enhanced with smooth Framer Motion animations.
 
-## Available Scripts
+<img width="1920" height="1080" alt="Portfolio Preview Image" src="https://github.com/user-attachments/assets/009399f0-eea7-4ec0-ab21-20b1946beaa6" />
 
-In the project directory, you can run:
+## ✨ Features
 
-### `yarn start`
+- 🎯 **Smooth Animations** - Framer Motion powered scroll-triggered animations
+- 📱 **Fully Responsive** - Works seamlessly on all devices
+- 🎨 **Modern Design** - Clean, professional interface with engaging interactions
+- ⚡ **Performance Optimized** - Fast load times and smooth 60fps animations
+- 🔍 **SEO Friendly** - Optimized for search engines
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React** - UI library
+- **Framer Motion** - Animation library
+- **Bootstrap 5** - CSS framework
+- **Sass/SCSS** - Styling
+- **Font Awesome** - Icons
 
-### `yarn test`
+## 📂 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```text
+portfolio/
+├── src/
+│   ├── components/
+│   │   ├── Hero/
+│   │   ├── About/
+│   │   ├── Skills/
+│   │   ├── Experience/
+│   │   ├── Projects/
+│   │   └── Contact/
+│   ├── assets/
+│   │   └── images/
+│   └── App.js
+├── public/
+└── package.json
+```
 
-### `yarn build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `yarn eject`
+1. Clone the repository
+```bash
+git clone https://github.com/gedeon-dev-8/gedeon-oscar-portfolio.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navigate to project directory
+```bash
+cd gedeon-oscar-portfolio
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start development server
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 📦 Build for Production
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Key Sections
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Hero** - Engaging introduction with animated code snippet preview
+- **About** - Personal background and professional approach
+- **Skills** - Technical skills with interactive icon animations
+- **Experience** - Work history with detailed project descriptions
+- **Projects** - Portfolio of completed works with live demos
+- **Contact** - Multiple ways to get in touch with copy-to-clipboard functionality
 
-### Code Splitting
+## 🎨 Animation Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Scroll-triggered section animations
+- Parallax effects on images
+- Staggered content reveals
+- Interactive hover states
+- 3D card transformations
+- Smooth page transitions
 
-### Analyzing the Bundle Size
+## 📱 Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Mobile-first approach
+- Breakpoints for all device sizes
+- Touch-friendly interactions
+- Optimized performance on all devices
 
-### Making a Progressive Web App
+## 🔗 Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[View Live Portfolio](https://your-portfolio-url.com)
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is open source and available under the [MIT License](LICENSE).
 
-### Deployment
+## 👤 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Gedeon Oscar**
 
-### `yarn build` fails to minify
+- Email: gedeon.dev8@gmail.com
+- LinkedIn: [Gedeon Oscar](https://www.linkedin.com/in/gedeon-oscar-4a150329a/)
+- GitHub: [@gedeon-dev-8](https://github.com/gedeon-dev-8)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+⭐ If you like this project, please consider giving it a star!
+
+Made with ❤️ by Gedeon Oscar
