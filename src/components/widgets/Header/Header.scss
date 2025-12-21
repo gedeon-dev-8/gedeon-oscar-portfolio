@@ -1,0 +1,153 @@
+@mixin header-profile-ico-behaviour {
+    color: var(--warning-color);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.header-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+
+    .nav-link {
+        font-weight: 400;
+        color: var(--font-text-color) !important;
+    }
+
+    .active,
+    .nav-link:hover {
+        font-weight: 500;
+        transform: scale(1.1);
+        color: var(--font-text-color) !important;
+        transition: transform 0.3s ease;
+
+        &.active {
+            font-weight: 600;
+            color: var(--font-text-color) !important;
+        }
+    }
+
+    .dropdown {
+        .btn-fill {
+            background-color: var(--font-text-color);
+            border-color: var(--font-text-color);
+            color: #ffffff;
+
+            &:hover {
+                background-color: #ffffff;
+                color: var(--font-text-color);
+                border-color: #022a44;
+            }
+
+            &:focus,
+            &:active {
+                outline: none;
+            }
+        }
+
+        &:hover {
+            .user-profile-ico {
+                color: var(--primary-background-color) !important;
+            }
+
+            .profile-cta-ico {
+                &:hover {
+                    @include header-profile-ico-behaviour();
+                }
+            }
+        }
+    }
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    .bracket {
+        color: #0c0e14;
+        font-weight: 400;
+        transition: color 0.3s ease;
+
+        &:first-child {
+            margin-right: 4px;
+        }
+
+        &:last-child {
+            margin-left: 4px;
+        }
+
+        &:hover {
+            color: #0c0e14;
+        }
+    }
+
+    .name {
+        color: #0c0e14;
+
+        &:hover {
+            color: lighten(#0c0e14, 10%);
+        }
+    }
+
+    .dot {
+        color: #ffffff;
+        animation: blink 1.5s infinite;
+    }
+
+    .dev {
+        color: #0c0e14;
+
+        &:hover {
+            color: lighten(#0c0e14, 10%);
+        }
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1.6rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 1.3rem;
+    }
+}
+
+// Subtle blink animation for the dot
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
