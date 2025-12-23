@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gedeon-oscar-portfolio/static/css/main.3eaf7f57.css",
-    "main.js": "/gedeon-oscar-portfolio/static/js/main.aa26750a.js",
+    "main.js": "/gedeon-oscar-portfolio/static/js/main.745a4ce8.js",
     "static/js/453.e04e4546.chunk.js": "/gedeon-oscar-portfolio/static/js/453.e04e4546.chunk.js",
     "static/media/HubscoreX.png": "/gedeon-oscar-portfolio/static/media/HubscoreX.d1ad246dd9a7ff7a976d.png",
     "static/media/I - LANK Figma.png": "/gedeon-oscar-portfolio/static/media/I - LANK Figma.a47130e1818848cab0cc.png",
@@ -19,11 +19,11 @@
     "static/media/fa-v4compatibility.woff2": "/gedeon-oscar-portfolio/static/media/fa-v4compatibility.e4340c52a50e727c6afa.woff2",
     "index.html": "/gedeon-oscar-portfolio/index.html",
     "main.3eaf7f57.css.map": "/gedeon-oscar-portfolio/static/css/main.3eaf7f57.css.map",
-    "main.aa26750a.js.map": "/gedeon-oscar-portfolio/static/js/main.aa26750a.js.map",
+    "main.745a4ce8.js.map": "/gedeon-oscar-portfolio/static/js/main.745a4ce8.js.map",
     "453.e04e4546.chunk.js.map": "/gedeon-oscar-portfolio/static/js/453.e04e4546.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3eaf7f57.css",
-    "static/js/main.aa26750a.js"
+    "static/js/main.745a4ce8.js"
   ]
 }
