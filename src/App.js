@@ -1,7 +1,8 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Main from './components/Main';
 
 import { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import FourForcesArticle from './components/widgets/Articles/The-Four-Forces-of-Systems/FourForcesArticle';
 
@@ -116,20 +117,12 @@ function App() {
   };
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Main handleNavClick={handleNavClick} activeSection={activeSection} />} />
-          <Route path="/article/fourforces" element={<FourForcesArticle />} />
-        </Routes>
-      </Router>
-    </BrowserRouter>
-    // <Router>
-    //   <Routes>
-    //     <Route path="/" element={<Main handleNavClick={handleNavClick} activeSection={activeSection} />} />
-    //     <Route path="/article/fourforces" element={<FourForcesArticle />} />
-    //   </Routes>
-    // </Router>
+    <Router basename={process.env.PUBLIC_URL}>
+      <Routes>
+        <Route path="/" element={<Main handleNavClick={handleNavClick} activeSection={activeSection} />} />
+        <Route path="/article/fourforces" element={<FourForcesArticle />} />
+      </Routes>
+    </Router>
   );
 }
 
