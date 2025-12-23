@@ -116,12 +116,20 @@ function App() {
   };
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Main handleNavClick={handleNavClick} activeSection={activeSection} />} />
-        <Route path="/article/fourforces" element={<FourForcesArticle />} />
-      </Routes>
-    </Router>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Main handleNavClick={handleNavClick} activeSection={activeSection} />} />
+          <Route path="/article/fourforces" element={<FourForcesArticle />} />
+        </Routes>
+      </Router>
+    </BrowserRouter>
+    // <Router>
+    //   <Routes>
+    //     <Route path="/" element={<Main handleNavClick={handleNavClick} activeSection={activeSection} />} />
+    //     <Route path="/article/fourforces" element={<FourForcesArticle />} />
+    //   </Routes>
+    // </Router>
   );
 }
 
