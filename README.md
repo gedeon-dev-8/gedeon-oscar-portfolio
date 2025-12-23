@@ -118,7 +118,7 @@ npm run build
 
 ## 🔗 Live Demo
 
-[View Live Portfolio]([https://your-portfolio-url.com](https://gedeon-dev-8.github.io/gedeon-oscar-portfolio/))
+- View Live Portfolio: [Gedeon Oscar Portfolio](https://gedeon-dev-8.github.io/gedeon-oscar-portfolio/)
 
 ## 📄 License
 
