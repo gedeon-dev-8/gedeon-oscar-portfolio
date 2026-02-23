@@ -3,18 +3,25 @@
     src="https://github.com/user-attachments/assets/00e4b5bc-cc92-4e38-afe1-8a16f6fcc206"
     width="100"
     height="100"
-    alt="Gedeon Oscar Logo"
+    alt="Gedeon Oscar Logo."
     align="middle"
   />
   &nbsp;
-  🎨 Gedeon Oscar - Portfolio
+  Gedeon Oscar - Portfolio
 </h1>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gedeon-dev-8/gedeon-oscar-portfolio)
-![GitHub repo size](https://img.shields.io/github/repo-size/gedeon-dev-8/gedeon-oscar-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/gedeon-dev-8/gedeon-oscar-portfolio?style=social)
-![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-Latest-FF0055?logo=framer)
+## 📊 Project Stats
+![Last Commit](https://img.shields.io/github/last-commit/gedeon-dev-8/gedeon-oscar-portfolio?style=for-the-badge&color=2ea44f)
+![Repo Size](https://img.shields.io/github/repo-size/gedeon-dev-8/gedeon-oscar-portfolio?style=for-the-badge&color=blueviolet)
+![Stars](https://img.shields.io/github/stars/gedeon-dev-8/gedeon-oscar-portfolio?style=for-the-badge&color=yellow)
+
+## 🛠️ Tech Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?style=for-the-badge&logo=font-awesome&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
 A modern, interactive portfolio website showcasing my work as a Creative Frontend Engineer and UI/UX Designer. Built with React and enhanced with smooth Framer Motion animations.
 
